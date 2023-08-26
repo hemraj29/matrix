@@ -1,0 +1,9 @@
+.footer-wrapper{
+    height: 68px;
+    width: 100%;
+    background: #F30050;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+}

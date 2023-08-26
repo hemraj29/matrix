@@ -1,0 +1,93 @@
+.wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 288px;
+    height: 100vh;
+    border-radius: 0px 32px 32px 0px;
+background: #292929;
+}
+
+.wrapper-inside{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.part-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-common{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* margin-bottom: 30px; */
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.vector{
+    width: 26px;
+    height: 30px;
+    margin-right: 25px;
+}
+.vector-2{
+    width: 26px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+
+.logo-text{
+    color: rgba(255, 255, 255, 0.70);
+font-family: Pacifico;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.logo-text-2{
+    color:  #F7F9F9;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
+}
+
+.part2{
+    padding-bottom: 90px;
+    padding-left: 30px;
+}
+
+.logo-group{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bottom-logo{
+    width: 24px;
+    height: 24px;
+    margin-right:20px;
+
+}
+
+.link-button{
+    outline: none;
+    text-decoration: none;
+}
+
+.active{
+    background-color: #F30050;
+    font-weight: 600;
+}
